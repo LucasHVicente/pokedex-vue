@@ -9,10 +9,12 @@ import {
 export const usePokemon = defineStore("pokemon", {
   state: () => ({
     pokemonList: [],
+    selectedPokemon: null,
     loading: false,
   }),
   getters: {
     getLoading: (state) => state.loading,
+    getSelectedPokemon: (state) => state.selectedPokemon,
     getPokemonList: (state) => state.pokemonList,
   },
   actions: {
@@ -39,9 +41,11 @@ export const usePokemon = defineStore("pokemon", {
           ...pokemon.data,
           evolution_chain: pokemonEvolutionChain.data,
         };
-        return pokemonDetails;
+        this.selectedPokemon = pokemonDetails;
+        this.loading = false;
       } catch (err) {
         console.log(err);
+        this.loading = false;
       }
     },
   },

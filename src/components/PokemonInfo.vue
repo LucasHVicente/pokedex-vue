@@ -2,7 +2,7 @@
   <div v-if="!!pokemon" class="pokemon-container">
     <img :src="pokemon.sprites.front_default" />
     <div class="pokemon-info-container">
-      <span class="entry-number">#{{ pokemon.id }}</span>
+      <span class="entry-number">#{{ pokemon.id.pad(4) }}</span>
       <h3>{{ pokemon.name }}</h3>
       <div class="types-container">
         <span
