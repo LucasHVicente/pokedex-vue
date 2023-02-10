@@ -16,3 +16,11 @@ $type-dragon: #6f35fc;
 $type-dark: #705746;
 $type-steel: #b7b7ce;
 $type-fairy: #d685ad;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Sofia Sans, sans-serif;
+  transition: 0.2s;
+}

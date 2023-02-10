@@ -8,7 +8,6 @@
 <script setup>
 import { computed } from "vue";
 import { usePokemon } from "../stores/pokemon";
-import Loader from "./Loader.vue";
 
 const pokemonStore = usePokemon();
 const pokemonList = computed(() => pokemonStore.getPokemonList);
