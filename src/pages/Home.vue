@@ -12,6 +12,6 @@ const pokemonStore = usePokemon();
 const loading = computed(() => pokemonStore.getLoading);
 
 onMounted(() => {
-  pokemonStore.fetchPokemon();
+  pokemonStore.fetchPokedexEntries();
 });
 </script>
