@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Loader v-if="!pokemonList" />
     <p v-if="pokemonList" v-for="(pokemon, index) in pokemonList" :key="index">
       {{ pokemon.name }}
     </p>
