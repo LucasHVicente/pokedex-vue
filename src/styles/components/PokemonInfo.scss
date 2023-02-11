@@ -57,6 +57,8 @@
     padding: 0 1em;
     border-radius: 0.25em;
     text-transform: capitalize;
+    color: $bg;
+    font-weight: 300;
   }
 }
 .stats-container {
@@ -77,4 +79,61 @@
   div:nth-child(odd) {
     background-color: $bg-secondary;
   }
+}
+
+// types color tags
+
+.normal-tag {
+  background-color: $type-normal !important;
+}
+.fire-tag {
+  background-color: $type-fire !important;
+}
+.water-tag {
+  background-color: $type-water !important;
+}
+.electric-tag {
+  background-color: $type-electric !important;
+}
+.grass-tag {
+  background-color: $type-grass !important;
+}
+.ice-tag {
+  background-color: $type-ice !important;
+}
+.fighting-tag {
+  background-color: $type-fighting !important;
+}
+.poison-tag {
+  background-color: $type-poison !important;
+}
+.ground-tag {
+  background-color: $type-ground !important;
+}
+.flying-tag {
+  background-color: $type-flying !important;
+}
+.psychic-tag {
+  background-color: $type-psychic !important;
+}
+.bug-tag {
+  background-color: $type-bug !important;
+}
+.rock-tag {
+  background-color: $type-rock !important;
+}
+.ghost-tag {
+  background-color: $type-ghost !important;
+}
+.dragon-tag {
+  background-color: $type-dragon !important;
+}
+.dark-tag {
+  background-color: $type-dark !important;
+}
+.steel-tag {
+  background-color: $type-steel !important;
+}
+.fairy-tag {
+  background-color: $type-fairy !important;
 }

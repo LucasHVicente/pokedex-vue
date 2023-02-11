@@ -7,6 +7,7 @@
       <div class="types-container">
         <span
           v-for="(pokeType, index) in pokemon.types"
+          :class="`${pokeType.type.name}-tag`"
           :key="`type-${index}`"
           >{{ pokeType.type.name }}</span
         >
