@@ -1,0 +1,14 @@
+.error-container {
+  padding: 1em;
+  border-radius: 1em;
+  background-color: $bg;
+  margin: 2em;
+  text-align: center;
+  h3 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1.5em;
+    color: $text-secondary;
+  }
+}
