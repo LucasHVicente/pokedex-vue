@@ -44,10 +44,13 @@
 </template>
 <style scoped lang="scss" src="../styles/components/PokemonInfo.scss" />
 <script>
+import ErrorMessage from "./ErrorMessage.vue";
+
 export default {
   name: "PokemonInfo",
   props: {
     pokemon: Object,
   },
+  components: { ErrorMessage },
 };
 </script>

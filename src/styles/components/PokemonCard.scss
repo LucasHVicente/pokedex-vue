@@ -8,6 +8,7 @@
     transform: scale(1.05);
   }
   span {
+    text-transform: capitalize;
     overflow: hidden;
     text-overflow: ellipsis;
   }

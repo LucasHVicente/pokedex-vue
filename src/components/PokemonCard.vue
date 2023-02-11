@@ -2,10 +2,10 @@
   <router-link :to="`/pokemon/${pokemon.name}`">
     <div class="pokemon-card-container">
       <img
-        :src="`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.index}.png`"
+        :src="`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`"
       />
       <div>
-        <span class="pokemon-number">#{{ pokemon.index.pad(4) }}</span>
+        <span class="pokemon-number">#{{ pokemon.id.pad(4) }}</span>
         <span class="pokemon-name">{{ pokemon.name }}</span>
       </div>
     </div>

@@ -2,6 +2,20 @@
   display: flex;
   gap: 1em;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: $bg;
+  margin: 2em;
+  h3 {
+    font-size: 1.5em;
+  }
+}
+.evolution-list-container {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
   justify-content: center;
-  margin: 1em;
+  padding: 1em;
 }
